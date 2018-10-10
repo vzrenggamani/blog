@@ -1,7 +1,10 @@
----
-layout: post
-title: Little Story from Me
----
++++
+title = "Senja Malam - Salah Diriku"
+date = "2018-10-01"
+author = "Rengga Prakoso N."
+cover = ""
+description = "Cuma Puisi Kegabutan"
++++
 
 **Senja, salah, dan diriku ?**
 
