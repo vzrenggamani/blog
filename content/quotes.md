@@ -6,15 +6,15 @@ cover = ""
 description = "Tell u fvcking short stories"
 +++
 
-> Tell your shit here
+*Tell your shit here*
 
-`Lupakan dia yg manis tapi bikin hati teriris.`
+> Lupakan dia yg manis tapi bikin hati teriris.
 
-`Jare sayang, kok ninggal.`
+> Jare sayang, kok ninggal.
 
-`Jare Cinta lapo kok dusta.`
+> Jare Cinta lapo kok dusta.
 
-`Naiknya selangit, jatuhnya suakit.`
+> Naiknya selangit, jatuhnya suakit.
 
 
 ```
