@@ -4,3 +4,6 @@
 [submodule "themes/sam"]
 	path = themes/sam
 	url = https://github.com/vickylai/hugo-theme-sam.git
+[submodule "content/gallery/assets-universal"]
+	path = content/gallery/assets-universal
+	url = https://github.com/vzrenggamani/assets-universal
