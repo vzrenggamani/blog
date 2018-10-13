@@ -6,23 +6,14 @@ cover = ""
 description = "Tell u fvcking short stories"
 +++
 
-*Tell your shit here*
+*Tell your shit stories here*
 
-> Lupakan dia yg manis tapi bikin hati teriris.
+* Lupakan dia yg manis tapi bikin hati teriris.
 
-> Jare sayang, kok ninggal.
+* Sesuai dengan penyakitnya
 
-> Jare Cinta lapo kok dusta.
+* Jare sayang, kok ninggal.
 
-> Naiknya selangit, jatuhnya suakit.
+* Jare Cinta lapo kok dusta.
 
-
-```
-Send your stories to me, then i will publish it accross my network
-Email : vzrenggamani@osismpksmaniwa.web.id
-Whatsapp : 08574820120
-
-Or contact me directly in my class
-SMA Negeri 1 Wonoayu
-XI Bahasa
-```
+* Naiknya selangit, jatuhnya suakit.
