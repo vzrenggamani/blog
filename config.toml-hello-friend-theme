@@ -1,0 +1,26 @@
+baseurl = "https://rengga.osismpksmaniwa.web.id/"
+languageCode = "ID-id"
+title = "Kesandung Blog"
+theme = "hello-friend"
+copyright = ""
+paginate = 5
+
+[params]
+  subtitle = "Buat Kamu yang disana"
+
+[params.logo]
+  logoText = "Ati Ati ^_^"
+#   or
+#
+#   path = "/img/your-example-logo.svg"
+#   alt = "Your example logo alt text"
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about"
+  [[menu.main]]
+    identifier = "quotes"
+    name = "Quotes"
+    url = "/quotes"
