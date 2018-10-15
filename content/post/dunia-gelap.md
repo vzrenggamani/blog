@@ -1,7 +1,7 @@
 ---
 title: "Dunia Gelap"
 date: 2018-10-14T19:01:40+07:00
-draft: true
+draft: false
 ---
 **Gelap Dunia, Indah Nirwana**
 
