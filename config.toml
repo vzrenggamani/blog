@@ -1,4 +1,4 @@
-baseurl = "http://rengga.osismpksmaniwa.web.id/"              # Your domain name. Must end with "/"
+baseurl = "https://rengga.osismpksmaniwa.web.id/"              # Your domain name. Must end with "/"
 languageCode = "id"
 defaultContentLanguage = "id"
 isMultilingual = false
