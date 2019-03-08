@@ -1,3 +1,3 @@
-# Hi There
+# Rengga Nugroho
 
-This just a blank pages
+InGenious Ordinary Student
