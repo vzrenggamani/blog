@@ -17,3 +17,5 @@ description = "Tell u fvcking short stories"
 * Jare Cinta lapo kok dusta.
 
 * Naiknya selangit, jatuhnya suakit.
+
+* Setinggi mata menatap, hanya kilasan cahaya yang nampak
