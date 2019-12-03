@@ -1,9 +1,9 @@
 +++
 title = "Random Quotes"
-date = "2018-10-01"
-author = "person who misses someone"
-cover = ""
-description = "Tell u fvcking short stories"
+date = "1988-11-01"
+author = "Someone who misses somewho"
+tags = ["archive"]
+type = "archive"
 +++
 
 *Tell your shit stories here*

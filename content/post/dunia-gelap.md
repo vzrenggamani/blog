@@ -1,7 +1,10 @@
 ---
 title: "Gelap Dunia"
 draft: false
+date: 2018-02-31
+author: "Dandelion & Coo"
 tags: ["classic","story","poem"]
+type: "archive"
 ---
 **Gelap Dunia, Indah Nirwana**
 

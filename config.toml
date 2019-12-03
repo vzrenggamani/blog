@@ -1,40 +1,52 @@
 baseurl = "https://me.auruchan.web.id/"
-languageCode = "id"
-defaultContentLanguage = "id"
-isMultilingual = false
-title = "Kesandung Blog ~.~"
-theme = "sam"
-pygmentsStyle = "monokai" 
-pygmentsCodefences = true
-# googleAnalytics = "" 
+languageCode = "id-ind"
+theme = "hello-friend"
+paginate = 5
 
 [params]
-    dateform = "Mon Jan 02, 2006"
-    dateformfull = "Mon Jan 2 2006 15:04:05 EST"
-    favicon = "https://raw.githubusercontent.com/vzrenggamani/assets-universal/master/auruchan-favicon-big.ico"
-    homepage = "main"                        # What to call the home page link
-    galleryFolder = "assets-universal/"                     # Where you've put your images, after "/content/gallery/"
-    clickablePhotos = true                          # Allow links to the full size images
-    #smallPreviewImages   = true                         # Show small images from the subfolder instead of the big versions in the gallery
-                                                         # Note: This will only become active if clickablePhotos is also true.
-    #smallImagesSubfolder = "small/"                      # The subfolder for the small versions of the images under the gallery (with trailing slash)
-                                                         # For each image the small version has to have the same filename as the big version.
-    footerText = "Kesandung Blog ~ Curhatan seorang IT Staff OSISMPKSMANIWA"
+  # dir name of your blog content (default is `content/posts`)
+  contentTypeName = "post"
+  # "light" or "dark"
+  defaultTheme = "dark"
+  # if you set this to 0, only submenu trigger will be visible
+  showMenuItems = 3
+  # Show reading time in minutes for posts
+  showReadingTime = false
 
-# Metadata
-    description = "Rengga's Blog"            # Max 160 characters show in search results
-    twitterCard = "summary_large_image"         # Card value “summary”, “summary_large_image”, “app”, or “player”
-    primaryImage = "tn.png"                     # Image that shows on Twitter cards and OpenGraph links
+[languages]
+  [languages.en]
+    title = "Kesandung Blog ~.~"
+    subtitle = "Cicit Cuit Rengga Prakoso Nugroho"
+    keywords = "vzrenggamani, Rengga Nugroho, Rengga Prakoso Nugroho"
+    copyright = "vzrenggamani"
+    menuMore = "Show more"
+    #writtenBy = "Rengga Prakoso Nugroho"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+    newerPosts = "Newer posts"
+    olderPosts = "Older posts"
+    minuteReadingTime = "min read"
+    dateFormatSingle = "2006-01-02"
+    dateFormatList = "2006-01-02"
 
-[[params.mainMenu]]
-    link = "/post"
-    text = "posts"
+    [languages.en.params.logo]
+      logoText = "Rengga Prakoso Nugroho"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
 
-[[params.mainMenu]]
-    link = "/extras"
-    text = "something little"
-
-[[params.mainMenu]]
-    link = "/about"
-    text = "Me"
-
+    [languages.menu]
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
+      [[languages.en.menu.main]]
+        identifier = "portofolio"
+        name = "Portofolio"
+        url = "https://rengga.auruchan.web.id"
+      [[languages.en.menu.main]]
+        identifier = "archive"
+        name = "Archive"
+        url = "/archive"

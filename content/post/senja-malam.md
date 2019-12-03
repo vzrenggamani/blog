@@ -1,7 +1,8 @@
 ---
 title: "Senja Malam"
 draft: false
-tags: ["classic","story","poem"]
+tags: ["classic","story","poem", "archive"]
+type: archive
 ---
 
 **Senja, salah, dan diriku ?**
