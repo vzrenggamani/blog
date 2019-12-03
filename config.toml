@@ -1,12 +1,12 @@
-baseurl = "https://me.auruchan.web.id/"              # Your domain name. Must end with "/"
+baseurl = "https://me.auruchan.web.id/"
 languageCode = "id"
 defaultContentLanguage = "id"
 isMultilingual = false
 title = "Kesandung Blog ~.~"
 theme = "sam"
-pygmentsStyle = "monokai"                     # https://help.farbox.com/pygments.html
+pygmentsStyle = "monokai" 
 pygmentsCodefences = true
-# googleAnalytics = ""             # Tracking code, eg. "UA-111111111-1"
+# googleAnalytics = "" 
 
 [params]
     dateform = "Mon Jan 02, 2006"
