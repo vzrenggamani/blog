@@ -1,7 +1,0 @@
-[submodule "themes/hello-friend"]
-	path = themes/hello-friend
-	url = https://github.com/panr/hugo-theme-hello-friend.git
-[submodule "themes/sam"]
-	path = themes/sam
-	url = https://github.com/vickylai/hugo-theme-sam.git
-
