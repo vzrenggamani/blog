@@ -1,8 +1,8 @@
 +++
 title = "Random Quotes"
-date = "1988-11-01"
+date = "2019-11-01"
 author = "Someone who misses somewho"
-tags = ["archive"]
+description = "Loveless, Hopeless, Lifeless, also Endless"
 type = "archive"
 +++
 

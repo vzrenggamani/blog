@@ -2,6 +2,7 @@ baseurl = "https://me.auruchan.web.id/"
 languageCode = "id-ind"
 theme = "hello-friend"
 paginate = 5
+googleAnalytics = "UA-68615481-6"
 
 [params]
   # dir name of your blog content (default is `content/posts`)
