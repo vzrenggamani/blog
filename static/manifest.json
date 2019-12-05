@@ -1,7 +1,11 @@
 {
-  "name": "Kesandung Blog ~.~",
-  "short_name": "Kesandung Blog",
-  "icons": [
+	"name" : "Kesandung Blog ~.~ - Rengga Nugroho",
+	"short_name" : "Kesandung Blog ~.~",
+	"description" : "Cicit Cuit Rengga Prakoso Nugroho",
+	"start_url" : "https://me.auruchan.web.id/index.html",
+	"display" : "standalone",
+	"orientation" : "portrait",
+	"icons": [
     {
       "src": "img/favicon-128.png",
       "sizes": "128x128",
@@ -28,9 +32,5 @@
       "type": "image/png"
     }
   ],
-  "start_url": "/",
-  "display": "standalone",
-  "orientation": "portrait",
-  "background_color": "#292a2d",
-  "theme_color": "#292a2d"
+	"lang" : "Indonesian"
 }
