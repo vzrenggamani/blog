@@ -1,0 +1,9 @@
+{
+	"name" : "Kesandung Blog ~.~ Rengga Nugroho",
+	"short_name" : "Kesandung Blog ~.~",
+	"description" : "Daily random notes from Rengga Nugroho",
+	"start_url" : "/index.html",
+	"display" : "standalone",
+	"orientation" : "portrait",
+	"lang" : "Indonesian"
+}
