@@ -5,11 +5,13 @@ const BASE_CACHE_FILES = [
     '/assets/style.css',
     '/assets/main.js',
     '/manifest.json',
+    '/index.html',
     '/favicon.png',
 ];
 
 const OFFLINE_CACHE_FILES = [
     '/style.css',
+    '/index.html',
     '/assets/style.css',
     '/assets/main.js',
     '/index.html',
@@ -20,7 +22,7 @@ const NOT_FOUND_CACHE_FILES = [
     '/script.js',
 ];
 
-const OFFLINE_PAGE = '/offline/index.html';
+const OFFLINE_PAGE = '/index.html';
 const NOT_FOUND_PAGE = '/404.html';
 
 const CACHE_VERSIONS = {
