@@ -2,8 +2,37 @@
 	"name" : "Kesandung Blog ~.~ Rengga Nugroho",
 	"short_name" : "Kesandung Blog ~.~",
 	"description" : "Daily random notes from Rengga Nugroho",
-	"start_url" : "/index.html",
+	"start_url" : "/",
 	"display" : "standalone",
 	"orientation" : "portrait",
-	"lang" : "Indonesian"
+	"icons": [
+		{
+		  "src": "favicon-128.png",
+		  "sizes": "128x128",
+		  "type": "image/png"
+		},
+		{
+		  "src": "apple-touch-icon-144x144.png",
+		  "sizes": "144x144",
+		  "type": "image/png"
+		},
+		{
+		  "src": "apple-touch-icon-152x152.png",
+		  "sizes": "152x152",
+		  "type": "image/png"
+		},
+		{
+		  "src": "favicon-196x196.png",
+		  "sizes": "196x196",
+		  "type": "image/png"
+		},
+		{
+		  "src": "img/splash.png",
+		  "sizes": "512x512",
+		  "type": "image/png"
+		}
+	  ],
+	"lang" : "Indonesian",
+	"background_color": "#292a2d",
+  	"theme_color": "#292a2d"
 }
