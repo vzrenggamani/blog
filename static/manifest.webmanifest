@@ -27,7 +27,7 @@
 		  "type": "image/png"
 		},
 		{
-		  "src": "img/splash.png",
+		  "src": "splash.png",
 		  "sizes": "512x512",
 		  "type": "image/png"
 		}
