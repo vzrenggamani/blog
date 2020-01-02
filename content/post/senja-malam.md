@@ -1,6 +1,6 @@
 ---
 title: "Senja Malam"
-draft: false
+draft: True
 tags: ["classic","story","poem", "archive"]
 type: archive
 ---

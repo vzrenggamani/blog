@@ -1,6 +1,6 @@
 ---
 title: "Gelap Dunia"
-draft: false
+draft: true
 date: 2018-02-31
 author: "Dandelion & Coo"
 tags: ["classic","story","poem"]
