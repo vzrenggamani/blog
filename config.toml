@@ -16,9 +16,9 @@ googleAnalytics = "UA-68615481-6"
 
 [languages]
   [languages.en]
-    title = "Kesandung Blog ~.~"
+    title = "Kesandung Blog"
     subtitle = "Cicit Cuit Rengga Prakoso Nugroho"
-    keywords = "vzrenggamani, Rengga Nugroho, Rengga Prakoso Nugroho"
+    keywords = "vzrenggamani, Rengga Nugroho, Rengga Prakoso Nugroho, kesandung blog"
     copyright = "vzrenggamani"
     menuMore = "Show more"
     #writtenBy = "Rengga Prakoso Nugroho"
