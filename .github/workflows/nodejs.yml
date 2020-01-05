@@ -17,7 +17,7 @@ jobs:
               netlify
        - name: Deployment
          env:
-           blogtoken: ${{ secrets.BLOG_TOKEN }}
-         run: workbox generateSW .
-              hugo build --minify
-              netlify deploy --site renggablog --auth ${{ secrets.BLOG_TOKEN }} --prod --dir=public
+           BLOGTOKEN: ${{ secrets.BLOG_TOKEN }}
+         run: workbox generateSW . &&
+              hugo build --minify &&
+              netlify deploy --site renggablog --auth $BLOGTOKEN --prod --dir=public
