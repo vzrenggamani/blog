@@ -1,5 +1,7 @@
 name: Blog Deployment
-on: [push]
+on:
+  push:
+    branches: master
 jobs:
   BuildDeploy:
     name: Blog Build and Deployment
@@ -15,4 +17,5 @@ jobs:
          with:
           node-version: '12.x'
 
-       - run: echo == && ls
+       - run: echo == 
+       - run: ls
