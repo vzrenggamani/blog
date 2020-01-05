@@ -19,6 +19,4 @@ jobs:
        - name: Deployment
          env:
            BLOGTOKEN: ${{ secrets.BLOG_TOKEN }}
-         run: hugo --minify &&
-              workbox generateSW .\workbox-config.js &&
-              netlify deploy --site renggablog --auth $BLOGTOKEN --prod --dir=public
+         run: ls && cd ../.. && ls
