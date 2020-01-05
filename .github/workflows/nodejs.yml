@@ -19,7 +19,4 @@ jobs:
        - name: Deployment
          env:
            BLOGTOKEN: ${{ secrets.BLOG_TOKEN }}
-         run: ls &&
-          echo ======= && 
-          cd .. && ls &&
-          echo =======
+         run: git pull && git status && echo ====== && ls
