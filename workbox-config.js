@@ -3,5 +3,5 @@ module.exports = {
   "globPatterns": [
     "**/*.{html,png,css,webmanifest}"
   ],
-  "swDest": "static/service-worker-rengga.js"
+  "swDest": "public/service-worker-rengga.js"
 };
