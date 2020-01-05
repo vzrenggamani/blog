@@ -41,7 +41,7 @@ jobs:
          run: workbox generateSW
 
        - name: Check files
-         run: dir
+         run: dir public
 
        - name: Deploy to Netlify
          run: netlify deploy --site $SITE_ID --auth $BLOGTOKEN --prod --dir=public
