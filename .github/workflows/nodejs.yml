@@ -33,7 +33,11 @@ jobs:
        - name: Install Dependencies
          run: npm install workbox-cli netlify-cli -g
        
-       - name: Fire and Launch
-         run: hugo --minify && 
-              workbox generateSW && 
-              netlify deploy --site renggablog --auth $BLOGTOKEN --prod --dir=public
+       - name: Build Sites
+         run: hugo --minify 
+       
+       - name: Generate Service Worker
+         run: workbox generateSW
+
+       - name: Deploy to Netlify
+         run: netlify deploy --site renggablog --auth $BLOGTOKEN --prod --dir=public
