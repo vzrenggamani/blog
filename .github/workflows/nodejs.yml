@@ -40,5 +40,8 @@ jobs:
        - name: Generate Service Worker
          run: workbox generateSW
 
+       - name: Check files
+         run: dir
+
        - name: Deploy to Netlify
          run: netlify deploy --site $SITE_ID --auth $BLOGTOKEN --prod --dir=public
