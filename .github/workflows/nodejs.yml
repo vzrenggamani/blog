@@ -35,5 +35,5 @@ jobs:
        
        - name: Fire and Launch
          run: hugo --minify && 
-              workbox generateSW --watch && 
+              workbox generateSW && 
               netlify deploy --site renggablog --auth $BLOGTOKEN --prod --dir=public
