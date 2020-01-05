@@ -8,6 +8,7 @@ jobs:
     runs-on: [ubuntu-18.04]
     env:
      BLOGTOKEN: ${{ secrets.BLOG_TOKEN }}
+     SITE_ID: ${{ secrets.SITE_ID }}
      ci: true
     steps:
        - name: checkout
@@ -40,4 +41,4 @@ jobs:
          run: workbox generateSW
 
        - name: Deploy to Netlify
-         run: netlify deploy --site renggablog --auth $BLOGTOKEN --prod --dir=public
+         run: netlify deploy --site $SITE_ID --auth $BLOGTOKEN --prod --dir=public
