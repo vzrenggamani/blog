@@ -4,6 +4,9 @@ jobs:
   BuildDeploy:
     name: Blog Build and Deployment
     runs-on: [ubuntu-18.04]
+    env:
+     BLOGTOKEN: ${{ secrets.BLOG_TOKEN }}
+     ci: true
     steps:
        - uses: peaceiris/actions-hugo@v2
          with:
@@ -15,8 +18,6 @@ jobs:
          run: npm i -g npm@latest
               npm install workbox-cli --global
               npm install netlify-cli -g
-              netlify
+              npm ci
        - name: Deployment
-         env:
-           BLOGTOKEN: ${{ secrets.BLOG_TOKEN }}
          run: git pull && git status && echo ====== && ls
