@@ -14,10 +14,5 @@ jobs:
        - uses: actions/setup-node@v1
          with:
           node-version: '12.x'
-       - name: Install Dependencies
-         run: npm i -g npm@latest
-              npm install workbox-cli --global
-              npm install netlify-cli -g
-              npm ci
-       - name: Deployment
-         run: git pull && git status && echo ====== && ls
+
+       - run: echo == && ls
