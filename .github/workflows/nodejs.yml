@@ -1,0 +1,23 @@
+name: Blog Deployment
+on: [push]
+jobs:
+  BuildDeploy:
+    name: Blog Build and Deployment
+    runs-on: [ubuntu-18.04]
+    steps:
+       - uses: peaceiris/actions-hugo@v2
+         with:
+          hugo-version: 'latest'
+       - uses: actions/setup-node@v1
+         with:
+          node-version: '10.x'
+       - name: Install Dependencies
+         run: npm install workbox-cli --global
+              npm install netlify-cli -g
+              netlify
+       - name: Deployment
+         env:
+           blogtoken: ${{ secrets.BLOG_TOKEN }}
+         run: workbox generateSW .
+              hugo build --minify
+              netlify deploy --site renggablog --auth ${{ secrets.BLOG_TOKEN }} --prod --dir=public
