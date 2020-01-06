@@ -5,6 +5,8 @@ if (workbox) {
   
     workbox.precaching.precacheAndRoute([]);
 
+    workbox.precaching.cleanupOutdatedCaches()
+
     addEventListener('message', (event) => {
       if (event.data && event.data.type === 'SKIP_WAITING') {
         skipWaiting();
