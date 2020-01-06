@@ -6,10 +6,6 @@ jobs:
   BuildDeploy:
     name: Blog Build and Deployment
     runs-on: [ubuntu-18.04]
-    env:
-     BLOGTOKEN: ${{ secrets.BLOG_TOKEN }}
-     SITE_ID: ${{ secrets.SITE_ID }}
-     ci: true
     steps:
        - name: checkout
          uses: actions/checkout@v2.0.0
@@ -32,7 +28,7 @@ jobs:
           node-version: '12.x'
 
        - name: Install Dependencies
-         run: npm install workbox-cli netlify-cli -g
+         run: npm install workbox-cli -g
        
        - name: Build Sites
          run: hugo --minify 
@@ -40,8 +36,9 @@ jobs:
        - name: Generate Service Worker
          run: workbox generateSW
 
-       - name: Check files
-         run: dir public
-
-       - name: Deploy to Netlify
-         run: netlify deploy --site $SITE_ID --auth $BLOGTOKEN --prod --dir=public
+       - name: Deploy to Firebase
+        uses: w9jds/firebase-action@master
+        with:
+          args: deploy --only hosting:catatan
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
