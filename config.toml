@@ -1,4 +1,4 @@
-baseurl = "https://me.auruchan.web.id/"
+baseurl = "https://journal.auruchan.web.id/"
 languageCode = "id-ind"
 theme = "hello-friend"
 paginate = 5
@@ -16,10 +16,10 @@ googleAnalytics = "UA-68615481-6"
 
 [languages]
   [languages.en]
-    title = "Kesandung Blog"
-    subtitle = "Cicit Cuit Rengga Prakoso Nugroho"
-    keywords = "vzrenggamani, Rengga Nugroho, Rengga Prakoso Nugroho, kesandung blog"
-    copyright = "vzrenggamani"
+    title = "Sakura Fukoka Journal"
+    subtitle = "Sakura Fukoka Studio Mini Journal"
+    keywords = "sakura fukoka, sakura journal, sakura fukoka studio"
+    copyright = "Sakura Fukoka Studios"
     menuMore = "Show more"
     #writtenBy = "Rengga Prakoso Nugroho"
     readMore = "Read more"
@@ -31,7 +31,7 @@ googleAnalytics = "UA-68615481-6"
     dateFormatList = "2006-01-02"
 
     [languages.en.params.logo]
-      logoText = "Rengga Prakoso Nugroho"
+      logoText = "Sakura Fukoka Journal"
       logoHomeLink = "/"
     # or
     #
@@ -43,10 +43,6 @@ googleAnalytics = "UA-68615481-6"
         identifier = "about"
         name = "About"
         url = "/about"
-      [[languages.en.menu.main]]
-        identifier = "portofolio"
-        name = "Portofolio"
-        url = "https://rengga.auruchan.web.id"
       [[languages.en.menu.main]]
         identifier = "archive"
         name = "Archive"
