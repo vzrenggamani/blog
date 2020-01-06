@@ -1,9 +1,9 @@
 ---
 title: "Tips sederhana sebelum memulai melamar kerja bagi freshgraduate"
-draft: false
+draft: true
 date: 2020-1-4
 author: "Rengga Prakoso Nugroho"
-tags: ["tipstrik","rekruitmen","melamar pekerjaan","slice of life"]
+tags: ["tips","rekruitmen","melamar pekerjaan","slice of life"]
 description: "Tips sederhana yang memudahkan kalian dalam melamar pekerjaan"
 ---
 
@@ -27,7 +27,7 @@ CV dan Resume merupakan hal yang tidak dapat dihindari dalam proses rekrutmen. K
 
 ### Apa itu Curiculum Vitae (CV)
 
-Curiculum Vitae atau CV adalah lembar yang berisi semua pengalaman kerja atau lainnya yang pernah kalian ikuti. CV lebih terkesan seperti diari singkat untuk selruh aktivitas yang pernah kalian lakukan dalam kurun beberapa waktu terakhir. Di dalam CV,kalian bisa mencantumkan seluruh pengalaman pekerjaan kalian, pendidikan maupun komunitas yang kalian ikut.
+Curiculum Vitae atau CV adalah lembar yang berisi semua pengalaman kerja atau lainnya yang pernah kalian ikuti. CV lebih terkesan seperti diari singkat untuk selruh aktivitas yang pernah kalian lakukan dalam kurun beberapa waktu terakhir. Di dalam CV, kalian bisa mencantumkan seluruh pengalaman pekerjaan kalian, pendidikan maupun komunitas yang kalian ikut.
 
 Hindari untuk menulis kehidupan pribadi di dalam CV seperti status menikah, umur, agama, ras dan lainnya. Hal ini dilakukan agar sang rekruiter tidak membuat penilaian awal berdasarkan kehidupan pribadi dari sang pelamar. Sebisa mungkin, cantumkan segala hal yang mungkin bisa membantu rekruiter memahami bagaimana kepribadian anda. Bisa dilakukan dengan mencantumkan organisasi, komunitas yang aktif kalian ikuti maupun pengalaman kepanitiaan pad suatu kegiatan di kampus maupun masyarakat.
 
@@ -118,7 +118,7 @@ Semakin sulit course atau sertifikasi yang kalian ikut dan lembaga sertifikasi y
 
 #### 4. Cetak cetak dan cetak
 
-Selalu cetak CV maupun resume kalian dengan rapi dan professional. Meskipun banyak perusahaan yang meminta soft file. Sisihkan sebagian uang kalian untuk cetakan terbaik pada CV/resume kalian. Gunakan tinta dan kertas terbaik. Relakan untuk membayar di percetakan agar hasil cetakan terlihat professional .Hal ini tentu akan membuat rekruiter merasa dihargai. Jadi cetaklah CV/resume kalian dengan baik.
+Selalu cetak CV maupun resume kalian dengan rapi dan professional. Meskipun banyak perusahaan yang meminta soft file. Sisihkan sebagian uang kalian untuk cetakan terbaik pada CV/resume kalian. Gunakan tinta dan kertas terbaik. Relakan untuk membayar di percetakan agar hasil cetakan terlihat professional. Hal ini tentu akan membuat rekruiter merasa dihargai. Jadi cetaklah CV/resume kalian dengan baik.
 
 #### 5. Expected Salary
 
@@ -126,7 +126,7 @@ Hei! Belom kenal udah malak! SKIP!
 
 #### 6. Terlalu panjang
 
-Buatlah resume dengan satu halaman. Rekruiter tidak memiliki banyak waktu untuk membaca semua isi dari resume kalian. Cukup dengan satu halaman yang berbobot, kalian memiliki kesempatan untuk lolos dari tahap screening. Kalian membuat sebuah resume bukanlah cerpen bahkan novel!
+Buatlah resume dengan satu halaman. Rekruiter tidak memiliki banyak waktu untuk membaca semua isi dari resume kalian. Cukup dengan satu halaman yang berbobot, kalian memiliki kesempatan untuk lolos dari tahap screening. Kalian membuat sebuah resume bukan sebuah cerpen atau novel!
 
 #### 7. Gunakan bahasa yang kalian kuasai
 
@@ -140,7 +140,7 @@ Selalu baca CV/Resume kalian, baca dan baca lagi. Minta teman maupun keluarga an
 
 Proses membaca ulang sangat penting guna menghindari segala kesalahan kecil yang sering kali terlewat oleh kita.
 
-Jadi, Baca dan baca kembali. Jangan sampai hal kecil membuat kalian tesingkirkan.
+Jadi, baca dan baca kembali. Jangan sampai hal kecil membuat kalian tesingkirkan.
 
 ---
 
@@ -154,7 +154,7 @@ Tempat ekspresi diri maupun berkeluh kesah tentang segala kehidupan kalian. Tapi
 
 Lebih baik buatlah dua akun sosial media yang berbeda. Akun pribadi yang berisi kehidupan pribadi kalian dengan teman maupun keluarga yang tidak ada hubungannya dengan pekerjaan kalian, dan sebuah akun professional kalian.
 
-Contohnya adalah desainer, seorang desainer biasnaya membuat dua akun, akun yang berisi hasil karya maupun konten yang berhubungan dengan pekerjaanya. Sedangkan akun yang lain merupakan akun pribadi yang berisi kehidupan pribadinya.
+Contohnya adalah desainer, seorang desainer biasanya membuat dua akun, akun yang berisi hasil karya maupun konten yang berhubungan dengan pekerjaanya. Sedangkan akun yang lain merupakan akun pribadi yang berisi kehidupan pribadinya.
 
 Dengan demikian, rekruiter tidak akan mengetahui kekonyolan maupun kehidupan pribadi kalian. Mereka hanya mengetahui akun sosial media professional kalian.
 
@@ -164,9 +164,7 @@ Memiliki sosial media yang bermacam macam tentu sangat menyenangkan tetapi kadan
 
 Contohnya adalah foto profil, sering terlihat seseorang dengan berbagai sosial media tetapi tidak memiliki foto profil yang sama. Hal ini terkesan tidak konsistenya seseorang dalam *merawat* sosial media yang dimilikinya.
 
-Cobalah untuk menyeragamkan semua konten yang ada di berbagai sosial media professional kalian, seperti foto profil, efek pada fotografi hingga caption. Hal ini akan memudahkan seseorang untuk mencari sosial media kalian dalam sekejap.
-
-Tetapi ingat, tiap sosial media memiliki peranan masing masing! Jadikan Quora sebagai temoat berbagi ilmu, Medium tempat menulis, instagram sebagai galeri hasil karya dan sebagainya.
+Cobalah untuk menyeragamkan semua konten yang ada di berbagai sosial media professional kalian, seperti foto profil, efek pada fotografi hingga caption. Hal ini akan memudahkan seseorang untuk mencari sosial media kalian dalam sekejap. Hal yang paling mudah ialah username. Cobalah untuk membuat username yang sama pada setiap akun sosial media yang kalian miliki.
 
 ### 3. Aktif di semua sosial media yang kalian miliki
 
@@ -209,3 +207,5 @@ Yash, Hanya itu yang dapat saya bagi dengan kalian semua. Maaf jika membingungka
 Feel free to contact me:\
 Rengga Prakoso Nugroho\
 [Say Hello](mailto:me@auruchan.web.id)
+
+Sumber and pranala luar:
