@@ -1,7 +1,7 @@
 {
-	"name" : "Kesandung Blog ~.~ Rengga Nugroho",
-	"short_name" : "Kesandung Blog ~.~",
-	"description" : "Daily random notes from Rengga Nugroho",
+	"name" : "Sakura Fukoka Studio Mini Journal",
+	"short_name" : "Sakura Fukoka Journal",
+	"description" : "Sakura Fukoka Studio owner's blog",
 	"start_url" : "/",
 	"display" : "standalone",
 	"orientation" : "portrait",
