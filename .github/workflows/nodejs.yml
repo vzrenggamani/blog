@@ -37,7 +37,7 @@ jobs:
         run: hugo --minify 
        
       - name: Generate Service Worker
-        run: workbox generateSW
+        run: workbox injectManifest workbox-config.js
       
       - name: Archive Production Artifact
         uses: actions/upload-artifact@master
