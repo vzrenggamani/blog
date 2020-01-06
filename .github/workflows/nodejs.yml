@@ -1,4 +1,4 @@
-name: Blog Deployment | SHA ${GITHUB_SHA}
+name: Blog Deployment | Firebase Hosting
 on:
   push:
     branches: 
@@ -42,9 +42,8 @@ jobs:
       - name: Archive Production Artifact
         uses: actions/upload-artifact@master
         with:
-          name: dist
-          path: dist
-
+          name: public
+          path: .
   deploy:
     name: Deploy to Firebase
     needs: build
@@ -55,7 +54,7 @@ jobs:
       - name: Download Artifact
         uses: actions/download-artifact@master
         with:
-          name: dist
+          name: public
       - name: Deploy to Firebase
         uses: w9jds/firebase-action@master
         with:
