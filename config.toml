@@ -3,6 +3,7 @@ languageCode = "id-ind"
 theme = "hello-friend"
 paginate = 5
 googleAnalytics = "UA-68615481-6"
+enableRobotsTXT = true
 
 [params]
   # dir name of your blog content (default is `content/posts`)
