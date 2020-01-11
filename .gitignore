@@ -1,8 +1,10 @@
-public/
-
 # Local Netlify folder
 .netlify
+
 /.vscode
+
+# Firabase cache data
+public/
 node_modules
 /coverage
 /.nyc_output

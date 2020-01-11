@@ -1,7 +1,7 @@
 name: Blog Deployment | Firebase Hosting
 on:
   push:
-    branches: 
+    branches:  # RUn only in master's branch commit
     - master
 
 jobs:
@@ -10,10 +10,10 @@ jobs:
     name: Blog Build
     runs-on: ubuntu-latest
     steps:
-      - name: checkout
+      - name: checkout  # Checkout repository latest commit
         uses: actions/checkout@v2.0.0
 
-      - name: Submodule Checkout
+      - name: Submodule Checkout # Gte the theme repository
         shell: bash
         run: |
           auth_header="$(git config --local --get http.https://github.com/.extraheader)"
@@ -34,13 +34,13 @@ jobs:
         run: npm install workbox-cli -g
        
       - name: Build Sites
-        run: hugo --minify 
+        run: hugo --minify  # Build the sites with minified version
        
       - name: Generate Service Worker
-        run: workbox injectManifest workbox-config.js
+        run: workbox injectManifest workbox-config.js   # Inject cache manifest sw to production Service Worker
       
       - name: Archive Production Artifact
-        uses: actions/upload-artifact@master
+        uses: actions/upload-artifact@master    # Upload built sites to GitHub actions artifact
         with:
           name: public
           path: public
@@ -49,7 +49,7 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Repo
+      - name: Checkout Repo   # Checkout and download the sites artifact previously created
         uses: actions/checkout@master
       - name: Download Artifact
         uses: actions/download-artifact@master
@@ -58,6 +58,6 @@ jobs:
       - name: Deploy to Firebase
         uses: w9jds/firebase-action@master
         with:
-          args: deploy --only hosting:catatan
+          args: deploy --only hosting:catatan   # Deploy to FIrebase Hosting : "Catatan" Sites
         env:
-          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }} # Get the token from the GitHub Repos Secrets
